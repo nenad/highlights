@@ -11,10 +11,10 @@ import (
 
 func main() {
 	usage := `
-	highlights DESCRIPTION [SOURCE]
+highlights DESCRIPTION [SOURCE]
 
-	DESCRIPTION is the description which will be used for this highlight
-	SOURCE is an optional source under which this highlight will be grouped
+DESCRIPTION is the description which will be used for this highlight
+SOURCE is an optional source under which this highlight will be grouped
 `
 
 	apiKey, ok := os.LookupEnv("RESCUETIME_API_KEY")
